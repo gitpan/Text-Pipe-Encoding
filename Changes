@@ -1,0 +1,10 @@
+---
+global:
+  name: Text-Pipe-Encoding
+releases:
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - original version
+    date: 2007-11-11T22:18:52Z
+    tags: []
+    version: 0.01
