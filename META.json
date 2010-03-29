@@ -1,0 +1,61 @@
+{
+   "resources" : {
+      "homepage" : "http://search.cpan.org/dist/Text-Pipe-Encoding/",
+      "repository" : "http://github.com/hanekomu/Text-Pipe-Encoding",
+      "bugtracker" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Text-Pipe-Encoding"
+   },
+   "generated_by" : "Dist::Zilla version 1.100711",
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "version" : "1.100880",
+   "name" : "Text-Pipe-Encoding",
+   "author" : [
+      "Marcel Gruenauer <marcel@cpan.org>"
+   ],
+   "license" : "perl",
+   "build_requires" : {},
+   "provides" : {
+      "Text::Pipe::Encoding::QuotedPrint::Decode" : {
+         "version" : "1.100880",
+         "file" : "lib/Text/Pipe/Encoding/QuotedPrint/Decode.pm"
+      },
+      "Text::Pipe::Encoding::QuotedPrint::Encode" : {
+         "version" : "1.100880",
+         "file" : "lib/Text/Pipe/Encoding/QuotedPrint/Encode.pm"
+      },
+      "Text::Pipe::Encoding" : {
+         "version" : "1.100880",
+         "file" : "lib/Text/Pipe/Encoding.pm"
+      },
+      "Text::Pipe::Encoding::Base64::Encode" : {
+         "version" : "1.100880",
+         "file" : "lib/Text/Pipe/Encoding/Base64/Encode.pm"
+      },
+      "Text::Pipe::Encoding::Base64::Decode" : {
+         "version" : "1.100880",
+         "file" : "lib/Text/Pipe/Encoding/Base64/Decode.pm"
+      }
+   },
+   "requires" : {
+      "Scalar::Util" : "0",
+      "parent" : "0",
+      "English" : "0",
+      "Text::Pipe::Base" : "0",
+      "MIME::QuotedPrint" : "0",
+      "Encode" : "0",
+      "Carp" : "0",
+      "Test::More" : "0.88",
+      "perl" : "5.008",
+      "MIME::Base64" : "0",
+      "File::Find" : "0",
+      "Text::Pipe" : "0",
+      "File::Temp" : "0"
+   },
+   "abstract" : "Text pipes that can encode and decode in various ways",
+   "configure_requires" : {
+      "ExtUtils::MakeMaker" : "6.11"
+   }
+}
+
