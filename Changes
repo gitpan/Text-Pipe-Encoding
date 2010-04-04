@@ -1,5 +1,8 @@
 Revision history for Perl extension Text-Pipe-Encoding
 
+1.100950  2010-04-05 00:21:30 Europe/Vienna
+    - require MIME-Base64 3.09 since I adapted the tests from there
+
 1.100880  2010-03-29 23:32:52 Europe/Vienna
     - converted the distribution to Dist::Zilla-style
 

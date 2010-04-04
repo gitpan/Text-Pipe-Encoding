@@ -3,9 +3,11 @@ use strict;
 use warnings;
 
 package Text::Pipe::Encoding::Base64::Encode;
-our $VERSION = '1.100880';
+BEGIN {
+  $Text::Pipe::Encoding::Base64::Encode::VERSION = '1.100950';
+}
 # ABSTRACT: Text pipe that can encode base64 strings
-use MIME::Base64;
+use MIME::Base64 3.09;
 use parent qw(Text::Pipe::Encoding);
 
 sub filter_single {
@@ -24,7 +26,7 @@ Text::Pipe::Encoding::Base64::Encode - Text pipe that can encode base64 strings
 
 =head1 VERSION
 
-version 1.100880
+version 1.100950
 
 =head1 SYNOPSIS
 

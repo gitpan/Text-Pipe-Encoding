@@ -3,7 +3,9 @@ use strict;
 use warnings;
 
 package Text::Pipe::Encoding;
-our $VERSION = '1.100880';
+BEGIN {
+  $Text::Pipe::Encoding::VERSION = '1.100950';
+}
 # ABSTRACT: Text pipes that can encode and decode in various ways
 use parent qw(Text::Pipe::Base);
 1;
@@ -18,7 +20,7 @@ Text::Pipe::Encoding - Text pipes that can encode and decode in various ways
 
 =head1 VERSION
 
-version 1.100880
+version 1.100950
 
 =head1 DESCRIPTION
 

@@ -3,9 +3,11 @@ use strict;
 use warnings;
 
 package Text::Pipe::Encoding::QuotedPrint::Encode;
-our $VERSION = '1.100880';
+BEGIN {
+  $Text::Pipe::Encoding::QuotedPrint::Encode::VERSION = '1.100950';
+}
 # ABSTRACT: Text pipe that can encode quoted-printable strings
-use MIME::QuotedPrint;
+use MIME::QuotedPrint 3.09;
 use parent qw(Text::Pipe::Encoding);
 
 sub filter_single {
@@ -24,7 +26,7 @@ Text::Pipe::Encoding::QuotedPrint::Encode - Text pipe that can encode quoted-pri
 
 =head1 VERSION
 
-version 1.100880
+version 1.100950
 
 =head1 SYNOPSIS
 

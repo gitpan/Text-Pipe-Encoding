@@ -3,7 +3,7 @@ NAME
     ways
 
 VERSION
-    version 1.100880
+    version 1.100950
 
 DESCRIPTION
     This is a marker class; the actual pipe segment classes live in the
