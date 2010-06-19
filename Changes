@@ -1,5 +1,8 @@
 Revision history for Perl extension Text-Pipe-Encoding
 
+1.101700  2010-06-19 11:06:00 Europe/Vienna
+    - converted tabs to spaces
+
 1.100950  2010-04-05 00:21:30 Europe/Vienna
     - require MIME-Base64 3.09 since I adapted the tests from there
 

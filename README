@@ -3,7 +3,7 @@ NAME
     ways
 
 VERSION
-    version 1.100950
+    version 1.101700
 
 DESCRIPTION
     This is a marker class; the actual pipe segment classes live in the
@@ -17,7 +17,7 @@ BUGS AND LIMITATIONS
     No bugs have been reported.
 
     Please report any bugs or feature requests through the web interface at
-    <http://rt.cpan.org/Public/Dist/Display.html?Name=Text-Pipe-Encoding>.
+    <http://rt.cpan.org>.
 
 AVAILABILITY
     The latest version of this module is available from the Comprehensive

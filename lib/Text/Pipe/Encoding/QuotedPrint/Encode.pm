@@ -4,7 +4,7 @@ use warnings;
 
 package Text::Pipe::Encoding::QuotedPrint::Encode;
 BEGIN {
-  $Text::Pipe::Encoding::QuotedPrint::Encode::VERSION = '1.100950';
+  $Text::Pipe::Encoding::QuotedPrint::Encode::VERSION = '1.101700';
 }
 # ABSTRACT: Text pipe that can encode quoted-printable strings
 use MIME::QuotedPrint 3.09;
@@ -26,7 +26,7 @@ Text::Pipe::Encoding::QuotedPrint::Encode - Text pipe that can encode quoted-pri
 
 =head1 VERSION
 
-version 1.100950
+version 1.101700
 
 =head1 SYNOPSIS
 
@@ -51,7 +51,7 @@ See perlmodinstall for information and options on installing Perl modules.
 No bugs have been reported.
 
 Please report any bugs or feature requests through the web interface at
-L<http://rt.cpan.org/Public/Dist/Display.html?Name=Text-Pipe-Encoding>.
+L<http://rt.cpan.org>.
 
 =head1 AVAILABILITY
 

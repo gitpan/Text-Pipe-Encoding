@@ -4,7 +4,7 @@ use warnings;
 
 package Text::Pipe::Encoding;
 BEGIN {
-  $Text::Pipe::Encoding::VERSION = '1.100950';
+  $Text::Pipe::Encoding::VERSION = '1.101700';
 }
 # ABSTRACT: Text pipes that can encode and decode in various ways
 use parent qw(Text::Pipe::Base);
@@ -20,7 +20,7 @@ Text::Pipe::Encoding - Text pipes that can encode and decode in various ways
 
 =head1 VERSION
 
-version 1.100950
+version 1.101700
 
 =head1 DESCRIPTION
 
@@ -36,7 +36,7 @@ See perlmodinstall for information and options on installing Perl modules.
 No bugs have been reported.
 
 Please report any bugs or feature requests through the web interface at
-L<http://rt.cpan.org/Public/Dist/Display.html?Name=Text-Pipe-Encoding>.
+L<http://rt.cpan.org>.
 
 =head1 AVAILABILITY
 

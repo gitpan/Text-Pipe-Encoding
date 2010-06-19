@@ -4,7 +4,7 @@ use warnings;
 
 package Text::Pipe::Encoding::Base64::Encode;
 BEGIN {
-  $Text::Pipe::Encoding::Base64::Encode::VERSION = '1.100950';
+  $Text::Pipe::Encoding::Base64::Encode::VERSION = '1.101700';
 }
 # ABSTRACT: Text pipe that can encode base64 strings
 use MIME::Base64 3.09;
@@ -26,7 +26,7 @@ Text::Pipe::Encoding::Base64::Encode - Text pipe that can encode base64 strings
 
 =head1 VERSION
 
-version 1.100950
+version 1.101700
 
 =head1 SYNOPSIS
 
@@ -51,7 +51,7 @@ See perlmodinstall for information and options on installing Perl modules.
 No bugs have been reported.
 
 Please report any bugs or feature requests through the web interface at
-L<http://rt.cpan.org/Public/Dist/Display.html?Name=Text-Pipe-Encoding>.
+L<http://rt.cpan.org>.
 
 =head1 AVAILABILITY
 
